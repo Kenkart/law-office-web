@@ -16,7 +16,7 @@ class MainScreen extends StatelessWidget {
             children: [
               IconButton(
                 onPressed: () => context.go('/'),
-                icon: Image.asset('assets/logo.jpg', fit: BoxFit.cover),
+                icon: Image.asset('assets/logo.jpg'),
               ),
               Row(
                 children: [
